@@ -60,6 +60,22 @@ Because `www.safesploit.com` will redirect HTTP request to HTTPS the code logic 
 
 But for web servers which only use HTTPS and do not redirect HTTP requests issues will occur.
 
+# Programming logic
+
+## Writing to the log file
+
+As of v1.1.0 data is is formatted using the `$data` variable before being written to the log file.
+
+    $data = 
+        "Logged IP address: $ip, " .
+        "User-Agent: $userAgent, " . 
+        "Referred by: $referred, " .
+        "Parameter: $param, " .
+        "Date logged: $date " .
+        "\n";
+
+https://github.com/safesploit/Watcher/blob/cd891a2d70b1e38a53e29f7ba553f3b3941ddaa9/watcher.php#L72
+
 # Contributors
 
 Repositories which inspired and where I used code. 
