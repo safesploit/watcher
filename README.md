@@ -2,6 +2,11 @@
 
 Watcher tracks referrer page, IP address, date/time and user agent data before discreetly redirecting to the indended URL.
 
+<p align="center">
+  <img width="527" alt="Watcher-Banner" src="https://user-images.githubusercontent.com/10171446/181995197-22277864-c5bf-4b1f-b35e-420d0c0e4e37.png">
+
+</p>
+
 # Setup
 
 ## Hosting
