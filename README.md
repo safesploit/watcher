@@ -9,6 +9,16 @@ Watcher tracks referrer page, IP address, date/time and user agent data before d
 
 </p>
 
+# Table of Contents
+
+- [Setup](#setup)
+  - [Hosting](#hosting)
+  - [URL Formatting](#url-formatting)
+- [Example log](#example-log)
+  - [Watcher v1.1.0](#watcher-v110)
+  - [Potential Issues](#potential-issues)
+- [Contributors](#contributors)
+
 # Setup
 
 ## Hosting
