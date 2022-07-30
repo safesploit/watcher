@@ -42,3 +42,11 @@ The supplied URL is as follows:
 Because `www.safesploit.com` will redirect HTTP request to HTTPS the code logic `header( "Location: http://" . $_GET['s'], TRUE, 301 )` works fine.
 
 But for web servers which only use HTTPS and do not redirect HTTP requests issues will occur.
+
+# Contributors
+
+Repositories which inspired and where I used code. 
+
+  - [IP Grabber link](https://github.com/ispeakcomputer/php_visitor_tracking_script)
+  - [Shorty](https://github.com/mikecao/shorty) for a future update.
+  
